@@ -1,10 +1,5 @@
-from gendiff import __version__
 from gendiff.scripts import gendiff
 from gendiff.scripts import file_parsing
-
-
-def test_version():
-    assert __version__ == '0.1.0'
 
 
 def test_parse_file_json():
